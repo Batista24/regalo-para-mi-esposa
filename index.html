@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Mi Esposa ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+ <body>
+<audio id="love-song" loop>
+    <source src="musica/Sebastián Yatra &amp; Aitana  Sé Mi San Valentín (La Canción Más Romántica del Año  oficial letra ).mp3" type="audio/mpeg">
+</audio>
+
+<div id="music-control" class="music-btn">
+    <span id="music-icon">▶️</span>
+</div>
+    
+<div id="welcome-screen">
+    <div class="welcome-card">
+        <h1>¡Hola, mi amor! ❤️</h1>
+        <p>He preparado este pequeño juego para recordarte cuánto te amo y cuánto significas para mí.</p>
+        <p>¿Estás lista para ver qué tanto recordamos de nuestra historia?</p>
+        <button id="start-game-btn">Empezar con Amor ✨</button>
+    </div>
+</div>
+
+    <div id="game-container">
+        <div class="progress-container">
+            <div id="progress-bar"></div>
+        </div>
+
+        <h1 id="title">¿Cuánto me conoces, amor? ❤️</h1>
+        
+        <div id="quiz">
+            <p id="question">Cargando pregunta...</p>
+            <div id="options"></div>
+        </div>
+
+        <div id="result" class="hidden">
+            <h2 class="mensaje-final">¡Eres la mejor! 🌹</h2>
+            <p>Gracias por ser mi esposa. Cada día a tu lado es un regalo.</p>
+            <img src="imagenes/20230603113709_IMG_1879.JPG" alt="Nuestra Foto" id="love-img" style="cursor: pointer;">
+            <p class="te-amo">¡TE AMO! ❤️</p>
+            
+        </div>
+    </div>
+
+    <div id="carta-amor" class="hidden-carta">
+        <div class="contenido-carta">
+            <h3>Mi amada esposa,</h3>
+            <p>
+                Escribo esto para recordarte lo mucho que te amo. 
+                Eres el regalo más grande de mi vida y completar este juego 
+                es solo una pequeña muestra de lo mucho que te conozco.
+                <br><br>
+                Siempre tuyo. ❤️
+            </p>
+            <button id="cerrar-carta" style="width: auto; padding: 10px 20px;">Cerrar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
